@@ -9,7 +9,7 @@ module.exports = {
       dark_blue: '#052230',
       turq_light: '#D0FFFF',
       turq_satur: '#3ADCDC',
-      
+
     },
     fontFamily: {
       'body': ['"Bw Modelica"']
@@ -21,6 +21,6 @@ module.exports = {
     content: [
       "./src/**/*.svelte",
     ],
-    enabled: true // disable purge in dev
+    enabled: false // disable purge in dev
   },
 };
