@@ -6,13 +6,14 @@ module.exports = {
   },
   theme: {
     colors: {
-      dark_blue: '#052230',
-      turq_light: '#D0FFFF',
-      turq_satur: '#3ADCDC',
-
+      dark_blu: '#3724B6',
+      light_blu: '#1A64F5',
+      pinky: '#FF3358',
+      su_orange: '#FFA723',
+      dark_blu_txt: '#391F68'
     },
     fontFamily: {
-      'body': ['"Bw Modelica"']
+      'body': ['"Cabinet Grotesk"']
     }
   },
   plugins: [

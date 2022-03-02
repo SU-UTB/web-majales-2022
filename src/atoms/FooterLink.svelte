@@ -1,12 +1,13 @@
 <script>
   export let linkTo
+  export let isMailLink
 </script>
 
 <a 
-  href={`https://${linkTo}`} 
-  target="_blank" 
+  href={isMailLink ? `mailto:${linkTo}` : `https://${linkTo}`} 
+  target="_blank"
   rel="noopener noreferrer"
-  class="text-turq_satur underline max-w-max"
+  class="text-dark_blu underline max-w-max"
 >
   {linkTo}
 </a>

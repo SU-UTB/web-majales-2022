@@ -1,18 +1,20 @@
 <script>
-  import FooterManagerItem from '../atoms/FooterManagerItem.svelte'
+  import FooterItemHeadline from '../atoms/FooterItemHeadline.svelte'
+  import FooterManagerItem from '../molecules/FooterManagerItem.svelte'
   import FooterNavLink from '../atoms/FooterNavLink.svelte'
   import FooterLink from '../atoms/FooterLink.svelte'
-  import SocialsContainer from '../components/SocialsContainer.svelte'
+  import SocialsContainer from './FooterComponents/SocialsContainer.svelte'
+
 
   const managers = [
     {
       name: 'LEONA VYHNÁLKOVÁ',
-      pos: 'hlavní manažer',
+      pos: 'manažerka projektu',
       mail: 'vyhnalkova@sutb.cz'
     },
     {
       name: 'rastislav škojec',
-      pos: 'fundraising',
+      pos: 'koordinátor spolupráce',
       mail: 'skojec@sutb.cz'
     },
     {
@@ -22,52 +24,97 @@
     },
   ]
 
-  const president = {
-    name: 'adam utíkal',
-    pos: 'prezident Studentské unie',
-    mail: 'utikal@sutb.cz'    
-  }
+  const behindTheScenesGuyz = [
+    {
+      name: 'Adam Utíkal',
+      pos: 'statutární zástupce',
+      mail: 'utikal@sutb.cz'    
+    },
+    {
+      name: 'Filip Tomeš',
+      pos: 'správa webu a IT',
+      mail: ''    
+    },
+    {
+      name: 'Klárka bárová',
+      pos: 'webdesign a vizuální zpracování',
+      mail: ''    
+    }
+  ]
 
   const navLinks = [
     {
-      linkTo: '/partneri',
+      linkTo: '/lineup',
+      linkText: 'lineup'
+    },
+    {
+      linkTo: '/bandContest',
+      linkText: 'soutěž kapel'
+    },
+    {
+      linkTo: '/majalesKing',
+      linkText: 'král majálesu'
+    },
+    {
+      linkTo: '/partners',
       linkText: 'partneři'
     },
     {
-      linkTo: '/kontakty',
+      linkTo: '/contact',
       linkText: 'kontakt'
     },
+    {
+      linkTo: '/media',
+      linkText: 'pro média'
+    },
+  ]
+
+  const footerLinks = [
+    {
+      linkTo: 'su.utb.cz',
+    },
+    {
+      linkTo: 'utb.cz',
+    },
+    {
+      linkTo: 'su@utb.cz',
+      isMailLink: true
+    }
   ]
 </script>
 
-<footer class="bg-dark_blue md:px-8 md:py-16 flex flex-col md:flex-row justify-around">
-  <div class="footer-nav-links">
-    {#each navLinks as navLink}
-      <div class="footer-nav-link">
-        <FooterNavLink linkTo={navLink.linkTo} linkText={navLink.linkText} />
-      </div>
-    {/each}
-  </div>
-  <div class="managers flex flex-col justify-between space-y-4">
-    {#each managers as manager}
-      <div class="footer-manager-item">
-        <FooterManagerItem managerName={manager.name} managerPos={manager.pos} managerMail={manager.mail} />
-      </div>
-    {/each}
-  </div>
-  <div class="footer-contacts flex flex-col justify-between">
-    <div>
-      <SocialsContainer />
-      <div class="footer-contact-links flex flex-col md:mt-6">
-        <FooterLink linkTo="su.utb.cz" />
-        <FooterLink linkTo="utb.cz" />
+<footer class="bg-su_orange md:px-8 py-12">
+  <div class="footer-inner flex flex-col items-center md:items-start md:flex-row text-center md:text-left justify-around">
+    <div class="footer-nav-links mb-4 md:mb-0">
+      <FooterItemHeadline headlineText="majáles" class="mb-4 md:mb-2" />
+      {#each navLinks as navLink}
+        <div class="footer-nav-link mb-2 md:mb-auto">
+          <FooterNavLink linkTo={navLink.linkTo} linkText={navLink.linkText} />
+        </div>
+      {/each}
+      <div class="footer-contact-links flex flex-col mt-4 md:mt-6 items-center md:items-start">
+        {#each footerLinks as footerLink}
+          <FooterLink isMailLink={footerLink.isMailLink} linkTo={footerLink.linkTo} />
+        {/each}
       </div>
     </div>
-    <div class="footer-president">
-      <FooterManagerItem managerName={president.name} managerPos={president.pos} managerMail={president.mail} />
+    <div class="managers flex flex-col justify-between space-y-8 my-4 md:my-0">
+      {#each managers as manager}
+        <div class="footer-manager-item">
+          <FooterManagerItem managerName={manager.name} managerPos={manager.pos} managerMail={manager.mail} />
+        </div>
+      {/each}
+    </div>
+    <div class="footer-contacts flex flex-col items-center md:items-start">
+        <SocialsContainer />
+      <div class="footer-guyz flex flex-col">
+        {#each behindTheScenesGuyz as guy}
+          <div class="footer-guy-item mb-8">
+            <FooterManagerItem managerName={guy.name} managerPos={guy.pos} managerMail={guy.mail} />
+          </div>
+        {/each}
+      </div>
     </div>
   </div>
+  <h6 class="text-center mt-8 md:mt-12 font-bold uppercase">©Studentská unie utb, 2022</h6>
 </footer>
-
-<style>
-</style>
