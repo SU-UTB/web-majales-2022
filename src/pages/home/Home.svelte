@@ -1,7 +1,9 @@
 <script>
   import Footer from '../../components/Footer.svelte'
+  import Header from '../../components/Header.svelte'
 </script>
 
+<Header />
 <main>
   <h1>hlavní stránka</h1>
 </main>
