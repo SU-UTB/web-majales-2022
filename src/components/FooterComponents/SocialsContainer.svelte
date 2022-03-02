@@ -1,6 +1,6 @@
 <script>
   import MajSocials from "./MajSocials.svelte"
-  import SUSocials from "../SUSocials.svelte"
+  import SUSocials from "./SUSocials.svelte"
 </script>
 
 <div class="soc-container flex flex-col md:flex-row md:space-x-8 mb-6">

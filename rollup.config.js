@@ -7,7 +7,7 @@ import css from 'rollup-plugin-css-only';
 import { sveltePreprocess } from 'svelte-preprocess/dist/autoProcess';
 
 const production = !process.env.ROLLUP_WATCH;
-const pages = ['home', 'contact', 'partners'];
+const pages = ['home', 'bandContest', 'lineup', 'majalesKing', 'newsFeed', 'contact', 'partners'];
 
 function serve() {
 	let server;
