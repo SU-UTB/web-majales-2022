@@ -1,8 +1,8 @@
 <script>
-  import FooterItemHeadline from '../atoms/FooterItemHeadline.svelte'
-  import FooterManagerItem from '../molecules/FooterManagerItem.svelte'
-  import FooterNavLink from '../atoms/FooterNavLink.svelte'
-  import FooterLink from '../atoms/FooterLink.svelte'
+  import FooterItemHeadline from '../../atoms/FooterItemHeadline.svelte'
+  import FooterManagerItem from '../../molecules/FooterManagerItem.svelte'
+  import FooterNavLink from '../../atoms/FooterNavLink.svelte'
+  import FooterLink from '../../atoms/FooterLink.svelte'
   import SocialsContainer from './FooterComponents/SocialsContainer.svelte'
 
 

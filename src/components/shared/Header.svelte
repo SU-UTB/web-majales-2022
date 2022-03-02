@@ -1,6 +1,6 @@
 <script>
-  import HeaderNavLink from '../atoms/HeaderNavLink.svelte'
-  import LogoDateContainer from '../components/HeaderComponents/LogoDateContainer.svelte'
+  import HeaderNavLink from '../../atoms/HeaderNavLink.svelte'
+  import LogoDateContainer from './HeaderComponents/LogoDateContainer.svelte'
 
   const navLinks = [
     {

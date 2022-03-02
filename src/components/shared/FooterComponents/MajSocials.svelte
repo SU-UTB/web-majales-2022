@@ -1,5 +1,5 @@
 <script>  
-  import SocItem from '../../atoms/SocItem.svelte'
+  import SocItem from '../../../atoms/SocItem.svelte'
 
   const socItems = [
     {
