@@ -1,0 +1,27 @@
+<script>
+  import NavPageButton from '../../atoms/NavPageButton.svelte'
+</script>
+
+
+<section id="band-contest" class="text-white">
+  <div class="md:w-4/5 lg:w-3/5 mx-auto py-8 md:py-16">
+    <h5 class="text-3xl text-left font-semibold md:w-4/5 lg:w-3/5 mb-8">Soutěž kapel</h5>
+    <p class="md:w-4/5 lg:w-3/5 xl:w-1/2">
+      <span class="font-bold">Nech sebe a svou kapelu zazářit!</span>
+      Nezkusíš, nezažiješ. Přímo na Majálesu se tváří v tvář kolegům utkáte o hlavní cenu, kterou je <span class="font-bold">roční zásoba piva!</span>
+    </p>
+    <p class="mb-8 md:mb-12">
+      <span class="font-bold">
+        Pošli do 31. 3. svou registraci
+      </span>
+      a ukaž, co v tobě je!
+    </p>
+    <NavPageButton linkText="více informací" linkTo="./bandContest.html" />
+  </div>
+</section>
+
+<style>
+  #band-contest {
+    background: url('../assets/home/home_band_contest.png') no-repeat center;
+  }
+</style>

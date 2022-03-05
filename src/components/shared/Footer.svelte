@@ -44,27 +44,27 @@
 
   const navLinks = [
     {
-      linkTo: '/lineup',
+      linkTo: '/lineup.html',
       linkText: 'lineup'
     },
     {
-      linkTo: '/bandContest',
+      linkTo: '/bandContest.html',
       linkText: 'soutěž kapel'
     },
     {
-      linkTo: '/majalesKing',
+      linkTo: '/majalesKing.html',
       linkText: 'král majálesu'
     },
     {
-      linkTo: '/partners',
+      linkTo: '/partners.html',
       linkText: 'partneři'
     },
     {
-      linkTo: '/contact',
+      linkTo: '/contact.html',
       linkText: 'kontakt'
     },
     {
-      linkTo: '/media',
+      linkTo: '/media.html',
       linkText: 'pro média'
     },
   ]
@@ -83,12 +83,12 @@
   ]
 </script>
 
-<footer class="bg-su_orange md:px-8 py-12">
+<footer class="py-12">
   <div class="footer-inner flex flex-col items-center md:items-start md:flex-row text-center md:text-left justify-around">
     <div class="footer-nav-links mb-4 md:mb-0">
-      <FooterItemHeadline headlineText="majáles" class="mb-4 md:mb-2" />
+      <FooterItemHeadline headlineText="majáles" class="mb-4 md:mb-6" />
       {#each navLinks as navLink}
-        <div class="footer-nav-link mb-2 md:mb-auto">
+        <div class="footer-nav-link {navLink.linkTo === "/contact.html" ? "mb-6" : "mb-2"}">
           <FooterNavLink linkTo={navLink.linkTo} linkText={navLink.linkText} />
         </div>
       {/each}
@@ -118,3 +118,11 @@
   </div>
   <h6 class="text-center mt-8 md:mt-12 font-bold uppercase">©Studentská unie utb, 2022</h6>
 </footer>
+
+<style>
+  footer {
+    background-image: url('../assets/footer_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+</style>
