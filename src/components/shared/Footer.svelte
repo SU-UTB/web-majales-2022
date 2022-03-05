@@ -116,7 +116,7 @@
       </div>
     </div>
   </div>
-  <h6 class="text-center mt-8 md:mt-12 font-bold uppercase">©Studentská unie utb, 2022</h6>
+  <h6 class="text-center mt-8 md:mt-12 uppercase txt-bold">©Studentská unie utb, 2022</h6>
 </footer>
 
 <style>
@@ -124,5 +124,6 @@
     background-image: url('../assets/footer_img.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
 </style>

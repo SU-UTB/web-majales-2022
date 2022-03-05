@@ -8,16 +8,16 @@
       <img src="../assets/home/king_queen.png" alt="král a královna Majálesu">
     </div>
     <div class="king-queen-desc w-1/2">
-      <h5 class="text-3xl text-left text-light_blu font-semibold md:w-4/5 lg:w-3/5 mb-8">Král a královna <br />Majálesu</h5>
+      <h5 class="section-heading text-left text-light_blu md:w-4/5 lg:w-3/5 mb-8">Král a královna <br />Majálesu</h5>
       <p class="md:w-4/5 lg:w-3/5 xl:w-1/2 text-dark_blu_txt">
         Utkej se společně se svým fakultním parťákem v Majálesovém turnaji a vybojujte si titul krále a královny univerzity!
       </p>
       <p class="mb-8 md:mb-12 text-dark_blu_txt">
-        <span class="font-bold">
+        <span class="txt-bold">
           18. 4. spouštíme registrace
         </span>
         , budete mít natrénováno na urozené disciplíny? Ale nezaspi na vavřínech, registrovat se můžeš do 
-        <span class="font-bold">1. 5.!</span>
+        <span class="txt-bold">1. 5.!</span>
       </p>
       <NavPageButton linkText="více informací" linkTo="./majalesKing.html" />
     </div>

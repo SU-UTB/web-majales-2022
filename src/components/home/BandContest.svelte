@@ -5,13 +5,13 @@
 
 <section id="band-contest" class="text-white">
   <div class="md:w-4/5 lg:w-3/5 mx-auto py-8 md:py-16">
-    <h5 class="text-3xl text-left font-semibold md:w-4/5 lg:w-3/5 mb-8">Soutěž kapel</h5>
+    <h5 class="section-heading text-left md:w-4/5 lg:w-3/5 mb-8">Soutěž kapel</h5>
     <p class="md:w-4/5 lg:w-3/5 xl:w-1/2">
-      <span class="font-bold">Nech sebe a svou kapelu zazářit!</span>
-      Nezkusíš, nezažiješ. Přímo na Majálesu se tváří v tvář kolegům utkáte o hlavní cenu, kterou je <span class="font-bold">roční zásoba piva!</span>
+      <span class="txt-bold">Nech sebe a svou kapelu zazářit!</span>
+      Nezkusíš, nezažiješ. Přímo na Majálesu se tváří v tvář kolegům utkáte o hlavní cenu, kterou je <span class="txt-bold">roční zásoba piva!</span>
     </p>
     <p class="mb-8 md:mb-12">
-      <span class="font-bold">
+      <span class="txt-bold">
         Pošli do 31. 3. svou registraci
       </span>
       a ukaž, co v tobě je!

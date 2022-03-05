@@ -9,7 +9,7 @@
     <img src="../assets/home/home_majales_logo.png" alt="Majáles logo" class="mx-auto">
     <div class="flex flex-col w-4/5 items-end text-right -mt-40">
       <LandingDate />
-      <h4 class="landing-desc">největší studentský hudební <br />festival Zlínského kraje</h4>
+      <h4 class="landing-desc txt-medium">největší studentský hudební <br />festival Zlínského kraje</h4>
     </div>
   </div>
 </section>
