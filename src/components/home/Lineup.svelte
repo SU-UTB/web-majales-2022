@@ -1,5 +1,5 @@
 <script>
-  import NavPageButton from '../../atoms/NavPageButton.svelte'
+  import NavPageNavToPageBluButtonButton from '../../atoms/NavToPageBluBtn.svelte'
 
   const bands = [
     {
@@ -20,6 +20,6 @@
     {/each}
   </div>
   <div class="">
-    <NavPageButton linkText="všichni interpreti" linkTo="./lineup.html" />
+    <NavToPageBluButton linkText="všichni interpreti" linkTo="./lineup.html" />
   </div>
 </section>

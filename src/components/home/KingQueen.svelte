@@ -1,5 +1,5 @@
 <script>
-  import NavPageButton from '../../atoms/NavPageButton.svelte'
+  import NavToPageBluButton from '../../atoms/NavToPageBluBtn.svelte'
 </script>
 
 <section id="king-queen" class="text-white">
@@ -19,7 +19,7 @@
         , budete mít natrénováno na urozené disciplíny? Ale nezaspi na vavřínech, registrovat se můžeš do 
         <span class="txt-bold">1. 5.!</span>
       </p>
-      <NavPageButton linkText="více informací" linkTo="./majalesKing.html" />
+      <NavToPageBluButton linkText="více informací" linkTo="./majalesKing.html" />
     </div>
   </div>
 </section>

@@ -23,7 +23,7 @@ const finalBands = [
 </script>
 
 <section id="final-band-list">
-  <SectionHeading sectionHeadingText="Finalisté soutěže kapel" />
+  <SectionHeading sectionHeadingText="Finalisté soutěže kapel" class="text-light_blu" />
   {#each finalBands as finalBand}
     <div class="final-band-item">
       <img src={finalBand.imgSrc} alt={finalBand.imgAlt}>

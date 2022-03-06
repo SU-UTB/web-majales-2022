@@ -1,5 +1,5 @@
 <script>
-  import NavPageButton from '../../atoms/NavPageButton.svelte'
+  import NavToPageBluButton from '../../atoms/NavToPageBluBtn.svelte'
 </script>
 
 
@@ -16,7 +16,7 @@
       </span>
       a ukaž, co v tobě je!
     </p>
-    <NavPageButton linkText="více informací" linkTo="./bandContest.html" />
+    <NavToPageBluButton linkText="více informací" linkTo="./bandContest.html" />
   </div>
 </section>
 

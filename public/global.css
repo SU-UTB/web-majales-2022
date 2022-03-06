@@ -82,3 +82,9 @@ input, button, select, textarea {
 	letter-spacing: 0.01em;
 	font-size: 46px;
 }
+
+ol {
+	list-style: decimal;
+	margin: auto;
+	padding-left: 2rem;
+}
