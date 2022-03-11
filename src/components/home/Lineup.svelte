@@ -1,5 +1,5 @@
 <script>
-  import NavPageNavToPageBluButtonButton from '../../atoms/NavToPageBluBtn.svelte'
+  import NavToPageBluButton from '../../atoms/NavToPageBluBtn.svelte'
 
   const bands = [
     {
