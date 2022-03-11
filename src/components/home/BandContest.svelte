@@ -4,7 +4,7 @@
 
 
 <section id="band-contest" class="text-white">
-  <div class="md:w-4/5 lg:w-3/5 mx-auto py-8 md:py-16">
+  <div class="md:w-4/5 lg:w-3/5 mx-auto py-8 md:py-16 px-8 md:px-0">
     <h5 class="section-heading text-left md:w-4/5 lg:w-3/5 mb-8">Soutěž kapel</h5>
     <p class="md:w-4/5 lg:w-3/5 xl:w-1/2">
       <span class="txt-bold">Nech sebe a svou kapelu zazářit!</span>

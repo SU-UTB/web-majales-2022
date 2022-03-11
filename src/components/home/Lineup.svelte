@@ -10,7 +10,7 @@
 </script>
 
 
-<section id="lineup" class="md:w-4/5 mx-auto pt-4 mb-32">
+<section id="lineup" class="md:w-4/5 mx-auto pt-4 mb-32 px-8 md:px-0">
   <div class="lineup-header lg:w-10/12">
     <h5 class="section-heading text-light_blu text-right mb-8">Line-up</h5>
   </div>
