@@ -1,4 +1,5 @@
 <script>
+  import HamburgerBtn from '../../atoms/HamburgerBtn.svelte'
   import HeaderNavLink from '../../atoms/HeaderNavLink.svelte'
   import LogoDateContainer from './HeaderComponents/LogoDateContainer.svelte'
 
@@ -29,15 +30,37 @@
     },
   ]
 
+  let toggledMenu = false
+
 </script>
 
-<header class="bg-white py-4">
-  <nav class="flex justify-around items-center">
+<header class="w-full h-20 fixed top-0 z-10">
+  <nav class="flex justify-around items-center bg-white relative h-full">
     <LogoDateContainer />
-    <ul class="nav-items flex space-x-8">
+    <HamburgerBtn active={toggledMenu}  handleClick={ () => toggledMenu = !toggledMenu }/>
+    <ul 
+      class="nav-items w-full lg:w-auto flex flex-col lg:flex-row items-center lg:space-x-8 space-y-4 lg:space-y-0 absolute lg:static bg-white top-20 lg:top-0" 
+      class:toggledMenu>
       {#each navLinks as navLink}
           <HeaderNavLink linkTo={navLink.linkTo} linkText={navLink.linkText} />
       {/each}
     </ul>
   </nav>
 </header>
+
+<style>
+
+@media screen and (max-width: 1042px) {
+  .nav-items {
+    padding: 4% 10%;
+    transition: .4s;
+    transform: translateX(100%);
+    z-index: 3;
+  }
+}
+
+.toggledMenu {
+  transform: translateX(0%);
+}
+  
+</style>
