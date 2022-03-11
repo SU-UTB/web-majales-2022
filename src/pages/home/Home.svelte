@@ -3,7 +3,6 @@
   import Header from '../../components/shared/Header.svelte'
 
   import Landing from '../../components/home/Landing.svelte'
-  import Aftermovie from '../../components/home/Aftermovie.svelte'
   import About from '../../components/home/About.svelte'
   import Lineup from '../../components/home/Lineup.svelte'
   import BandContest from '../../components/home/BandContest.svelte'
@@ -14,7 +13,6 @@
 <Header />
 <main>
   <Landing />
-  <Aftermovie />
   <About />
   <Lineup />
   <BandContest />

@@ -1,6 +1,7 @@
 <script>
   import VerticalSocials from '../shared/VerticalSocials.svelte'
   import LandingDate from '../../atoms/LandingDate.svelte'
+  import Aftermovie from './Aftermovie.svelte'
 </script>
 
 <section id="landing" class="relative">
@@ -12,13 +13,13 @@
       <h4 class="landing-desc txt-medium">největší studentský hudební <br />festival Zlínského kraje</h4>
     </div>
   </div>
+  <Aftermovie />
 </section>
 
 <style>
   #landing {
-    background: url('../assets/home/home_landing.png') no-repeat center;
-    background-size: cover;
-    height: 110vh;
+    background: url('../assets/home/home_landing.png') no-repeat top;
+    background-size: 100% 66%;
   }
   .landing-desc {
     font-size: 2.6rem;
