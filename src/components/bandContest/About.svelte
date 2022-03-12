@@ -1,4 +1,4 @@
-<section id="about-band-contest" class="relative py-12 -top-8">
+<section id="about-band-contest" class="relative pb-12 -top-40">
   <div class="text-dark_blu_txt mt-24">
     <div class="w-full md:w-4/5 mx-auto px-8 md:px-4 flex items-center justify-center lg:justify-between flex-wrap">
       <div class="img-wrapper lg:w-3/5 2xl:w-2/5 max-w-lg md:max-w-none mb-8 lg:mb-0">

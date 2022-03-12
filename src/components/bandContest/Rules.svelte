@@ -3,9 +3,9 @@ import NavToPageBluBtn from "../../atoms/NavToPageBluBtn.svelte"
 import SectionHeading from "../../atoms/SectionHeading.svelte"
 </script>
 
-<section id="rules-band-contest" class="py-12">
+<section id="rules-band-contest" class="py-12 relative -top-40">
   <div class="flex justify-center px-8 md:px-4">
-    <div class="w-full xl:w-3/5">
+    <div class="w-full md:w-4/5 xl:w-3/5">
       <SectionHeading class="text-light_blu" sectionHeadingText="Pravidla pro účast v soutěži kapel a interpretů na Majálesu UTB 2022" />
       <ol class="text-dark_blu_txt">
         <li>Registrovat se může každé hudební těleso živě produkující <span class="txt-bold">vlastní autorské skladby</span> všech žánrů.</li>
