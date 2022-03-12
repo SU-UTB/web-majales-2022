@@ -62,5 +62,9 @@
 .toggledMenu {
   transform: translateX(0%);
 }
+
+header {
+  box-shadow: 0px 4px 15px rgba(32, 16, 135, 0.5);
+}
   
 </style>

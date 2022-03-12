@@ -16,7 +16,7 @@
   //  absolute left-10 top-20 md:top-52
 </script>
 
-<div class="majales_socials_vertical flex flex-col space-y-4 absolute  {$$props.class}">
+<div class="majales_socials_vertical flex flex-row items-center md:flex-col md:space-y-4 absolute  {$$props.class}">
   {#each majales_socials as socItem}
     <SocItem linkTo={socItem.linkTo} imgSrc={socItem.imgSrc} imgAlt={socItem.imgAlt} />
   {/each}
