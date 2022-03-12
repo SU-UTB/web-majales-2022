@@ -50,7 +50,7 @@
 
 <style>
 
-@media screen and (max-width: 1042px) {
+@media screen and (max-width: 1023px) {
   .nav-items {
     padding: 4% 10%;
     transition: .4s;

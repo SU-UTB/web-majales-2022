@@ -10,7 +10,6 @@
 <Header />
 <main>
   <Landing />
-  <About />
   <Rules />
 </main>
 <Footer />

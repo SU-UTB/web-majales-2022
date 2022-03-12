@@ -4,7 +4,7 @@ import SectionHeading from "../../atoms/SectionHeading.svelte"
 </script>
 
 <section id="rules-band-contest" class="py-12">
-  <div class="flex justify-center">
+  <div class="flex justify-center px-8 md:px-4">
     <div class="w-full xl:w-3/5">
       <SectionHeading class="text-light_blu" sectionHeadingText="Pravidla pro účast v soutěži kapel a interpretů na Majálesu UTB 2022" />
       <ol class="text-dark_blu_txt">
@@ -22,3 +22,9 @@ import SectionHeading from "../../atoms/SectionHeading.svelte"
     </div>
   </div>
 </section>
+
+<style>
+  li {
+    margin-bottom: 1rem;
+  }
+</style>
