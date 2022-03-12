@@ -83,6 +83,10 @@ input, button, select, textarea {
 	font-family: CabinetGroteskMedium;
 }
 
+.txt-normal {
+	font-family: CabinetGroteskRegular;
+}
+
 .section-heading {
 	font-family: CabinetGroteskBold;
 	letter-spacing: 0.01em;
