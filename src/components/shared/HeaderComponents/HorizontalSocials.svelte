@@ -1,5 +1,5 @@
 <script>
-  import SocItem from '../../atoms/SocItem.svelte'
+  import SocItem from '../../../atoms/SocItem.svelte'
   const majales_socials = [
     {
       linkTo: 'https://www.facebook.com/studentskaunieutb',
@@ -14,7 +14,7 @@
   ]
 </script>
 
-<div class="majales_socials_vertical hidden lg:fixed lg:flex items-center flex-col space-y-4 {$$props.class}">
+<div class="majales_socials_horizontal w-20 flex justify-between lg:hidden">
   {#each majales_socials as socItem}
     <SocItem linkTo={socItem.linkTo} imgSrc={socItem.imgSrc} imgAlt={socItem.imgAlt} />
   {/each}

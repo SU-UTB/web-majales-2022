@@ -7,14 +7,13 @@
 <div 
   class="hamburger-btn lg:hidden cursor-pointer w-8 h-8 z-10" 
   class:active on:click={() => active = !active} on:click={handleClick}>
-  <div class="line1"></div>
-  <div class="line2"></div>
-  <div class="line3"></div>
+  <div class="line1 bg-dark_blu"></div>
+  <div class="line2 bg-dark_blu"></div>
+  <div class="line3 bg-dark_blu"></div>
 </div>
 
 <style>
   .line1, .line2, .line3 {
-    background: black;
     content: "";
     display: block;
     height: 4px;
