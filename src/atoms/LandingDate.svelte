@@ -1,8 +1,9 @@
-<h3 class="landing-date txt-extrabold">6. 5. 2022</h3>
+<h3 class="landing-date txt-extrabold">6.&nbsp;5.&nbsp;2022</h3>
 
 <style>
   .landing-date {
     font-size: 2.5rem;
+    letter-spacing: 2px;
     text-shadow: -5px 4.68293px 6px rgba(32, 16, 135, 0.75);
   }
 

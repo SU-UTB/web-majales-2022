@@ -1,4 +1,4 @@
-<div class="logo-date-container flex space-x-8 items-center">
+<div class="logo-date-container flex space-x-8 items-center lg:pt-4">
   <a href="./index.html">
     <img src="./assets/maj_logo_blu.png" alt="Majáles logo modré">
   </a>
