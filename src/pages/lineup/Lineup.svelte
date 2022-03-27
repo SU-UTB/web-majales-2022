@@ -10,7 +10,6 @@
 <Header />
 <main>
   <Landing />
-  <BandList />
   <FinalBandList />
 </main>
 <Footer />
