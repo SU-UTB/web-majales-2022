@@ -7,7 +7,7 @@ import SectionHeading from "../../atoms/SectionHeading.svelte"
   <div class="flex justify-center px-8 md:px-4">
     <div class="w-full md:w-4/5 xl:w-3/5">
       <SectionHeading class="text-light_blu" sectionHeadingText="Pravidla pro účast v soutěži kapel a interpretů na Majálesu UTB 2022" />
-      <ol class="text-dark_blu_txt">
+      <ol class="">
         <li>Registrovat se může každé hudební těleso živě produkující <span class="txt-bold">vlastní autorské skladby</span> všech žánrů.</li>
         <li>Registrace sebe nebo kapely proběhne v rozmezí <span class="txt-bold">od 1. 3. 00:01 do 31. 3. 23:59.</span></li>
         <li>Registrace probíhá pomocí <span class="txt-bold">přihlašovacího formuláře.</span></li>

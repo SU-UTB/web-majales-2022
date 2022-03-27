@@ -6,12 +6,12 @@ import LandingHeading from "../../atoms/LandingHeading.svelte";
 </script>
 
 <section id="landing-lineup" class="py-12 relative">
-  <VerticalSocials class="top-10 left-10" />
+  <VerticalSocials class="lg:top-72 lg:left-10" />
   <div class="flex justify-around">
     <img src="" alt="">
     <div class="about-lineup md:w-2/5 px-8 md:px-4 my-8 md:my-0">
       <LandingHeading landingHeadingText="Koho si můžete letos poslechnout?" class="text-light_blu mb-4" />
-      <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. Scelerisque aliquam turpis turpis aliquet pellentesque sagittis facilisis mi habitasse. Donec tristique pulvinar amet, vestibulum semper et viverra vitae commodo. Augue sed justo, mattis ipsum vel id faucibus. </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. Scelerisque aliquam turpis turpis aliquet pellentesque sagittis facilisis mi habitasse. Donec tristique pulvinar amet, vestibulum semper et viverra vitae commodo. Augue sed justo, mattis ipsum vel id faucibus. </p>
     </div>
   </div>
 </section>

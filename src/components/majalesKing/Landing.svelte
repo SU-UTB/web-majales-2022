@@ -6,7 +6,7 @@
 </script>
 
 <section id="landing-king" class="relative py-32">
-  <VerticalSocials class="top-10 md:top-1/2 left-10" />
+  <VerticalSocials class="lg:top-72 lg:left-10" />
   <SectionWrapper>
     <LandingHeading landingHeadingText="Ať panuje ten nejlepší!" class="text-white mb-4" />
     <div class="about-lineup flex items-center flex-wrap">

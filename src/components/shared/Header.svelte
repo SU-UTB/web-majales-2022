@@ -40,7 +40,7 @@
     <LogoDateContainer />
     <HamburgerBtn active={toggledMenu}  handleClick={ () => toggledMenu = !toggledMenu } />
     <ul 
-      class="nav-items w-full lg:pt-4 lg:w-auto flex flex-col lg:flex-row items-center lg:space-x-8 space-y-4 lg:space-y-0 absolute lg:static bg-white top-20 lg:top-0" 
+      class="nav-items w-full lg:pt-4 lg:w-auto flex flex-col lg:flex-row items-center lg:space-x-8 absolute lg:static bg-white top-20 lg:top-0" 
       class:toggledMenu>
       {#each navLinks as navLink}
         <HeaderNavLink linkTo={navLink.linkTo} linkText={navLink.linkText} />
@@ -69,5 +69,5 @@
 header {
   box-shadow: 0px 4px 15px rgba(32, 16, 135, 0.5);
 }
-  
+
 </style>

@@ -5,7 +5,7 @@
 </script>
 
 <section id="landing-news" class="relative">
-  <VerticalSocials class="top-10 md:top-1/2 left-10" />
+  <VerticalSocials class="lg:top-72 lg:left-10" />
   <SectionWrapper class="py-40">
     <LandingHeading landingHeadingText="Co se u nás právě děje?" class="text-white pt-6 mb-4" />
     <div class="about-news md:w-3/5">

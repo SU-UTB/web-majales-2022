@@ -4,7 +4,7 @@
 
 </script>
 <section id="landing-contact" class="relative bg-su_orange py-12 w-full">
-  <VerticalSocials class="left-10 top-8 md:top-52 lg:top-64" />
+  <VerticalSocials class="lg:top-72 lg:left-10" />
   <div class="main-info md:w-4/5 lg:w-3/5 mx-auto px-8 md:px-4 flex flex-col justify-center">
     <LandingHeading landingHeadingText="Náš manažerský tým je tu pro vás!" class="text-white mb-4" />
     <div class="landing-desc md:w-1/2">

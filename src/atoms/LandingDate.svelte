@@ -1,4 +1,4 @@
-<h3 class="landing-date txt-extrabold">6.&nbsp;5.&nbsp;2022</h3>
+<h3 class="landing-date text-white txt-extrabold">6.&nbsp;5.&nbsp;2022</h3>
 
 <style>
   .landing-date {

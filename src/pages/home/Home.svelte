@@ -8,11 +8,13 @@
   import BandContest from '../../components/home/BandContest.svelte'
   import KingQueen from '../../components/home/KingQueen.svelte'
   import Partners from '../../components/home/Partners.svelte'
+  import Aftermovie from '../../components/home/Aftermovie.svelte'
 </script>
 
 <Header />
 <main>
   <Landing />
+  <Aftermovie />
   <About />
   <Lineup />
   <BandContest />

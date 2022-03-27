@@ -14,7 +14,7 @@
   ]
 </script>
 
-<div class="majales_socials_horizontal w-20 flex justify-between lg:hidden">
+<div class="majales_socials_horizontal w-20 flex justify-between lg:hidden mt-6">
   {#each majales_socials as socItem}
     <SocItem linkTo={socItem.linkTo} imgSrc={socItem.imgSrc} imgAlt={socItem.imgAlt} />
   {/each}

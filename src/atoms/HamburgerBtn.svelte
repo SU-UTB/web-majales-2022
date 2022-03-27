@@ -13,6 +13,7 @@
 </div>
 
 <style>
+
   .line1, .line2, .line3 {
     content: "";
     display: block;

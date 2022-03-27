@@ -38,13 +38,13 @@
 <section id="contact-list" class="py-12 md:py-24">
   <div class="md:w-4/5 mx-auto px-8 md:px-0 flex justify-center md:justify-between items-center flex-wrap">
     {#each contacts as contact}
-      <ContactItem contactName={contact.name} contactPos={contact.pos} contactMail={contact.mail} class="md:mx-4" />
+      <ContactItem contactName={contact.name} contactPos={contact.pos} contactMail={contact.mail} />
     {/each}
   </div>
   <hr class="w-1/5 mx-auto my-12 bg-dark_blu_txt" />
   <div class="info-contact text-center">
     <h6 class="text-pinky uppercase txt-bold mb-2 md:mb-4">infolinka</h6>
-    <a class="text-black txt-normal" href="mailto:su@utb.cz">su@utb.cz</a>
+    <a class="txt-normal" href="mailto:su@utb.cz">su@utb.cz</a>
   </div>
 </section>
 

@@ -7,7 +7,7 @@
     <div class="flex justify-center px-8 md:px-4">
       <div class="w-full md:w-4/5 xl:w-3/5">
         <SectionHeading class="text-light_blu" sectionHeadingText="Pravidla pro účast v soutěži Král a Královna Majálesu UTB 2022" />
-        <ol class="text-dark_blu_txt">
+        <ol class="">
           <li>Zúčastnit se může každý, kdo je <span class="txt-bold">v tomto roce studentem UTB</span> (i dálkové studium).</li>
           <li>Soutěží se <span class="txt-bold">v párech.</span> Každý pár se musí skládat z jednoho muže a jedné ženy.</li>
           <li>Celý tým musí být ze <span class="txt-bold">stejné fakulty.</span></li>

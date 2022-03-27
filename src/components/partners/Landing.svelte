@@ -4,7 +4,7 @@
 </script>
 
 <section id="landing-partners" class="relative py-12">
-  <VerticalSocials class="top-10 md:top-1/2 left-10" />
+  <VerticalSocials class="lg:top-72 lg:left-10" />
   <div class="flex justify-around items-center flex-wrap">
     <div class="img-section w-full md:w-4/5 lg:w-2/5">
       <img src="./assets/partners/majales_logo.png" alt="Majáles UTB Zlín 2022">
