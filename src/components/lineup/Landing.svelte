@@ -13,7 +13,7 @@ import BandList from "./BandList.svelte";
     <img src="" alt="">
     <div class="about-lineup md:w-2/5 px-8 md:px-4 my-8 md:my-0">
       <LandingHeading landingHeadingText="Koho si můžete letos poslechnout?" class="text-white mb-4" />
-      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. Scelerisque aliquam turpis turpis aliquet pellentesque sagittis facilisis mi habitasse. Donec tristique pulvinar amet, vestibulum semper et viverra vitae commodo. Augue sed justo, mattis ipsum vel id faucibus.</p>
+      <p class="text-white">Od 14:30 se park před Baťovou vilou rozezní melodiemi interpretů ze Zlína i&nbsp;zbytku republiky! </p>
       <NavToPageWhiteBtn class="mt-12" linkText="nalaď majálesový playlist" linkTo="./" />
     </div>
   </div>

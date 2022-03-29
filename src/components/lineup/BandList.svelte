@@ -7,7 +7,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
   
 
   const udg = {
-    imgSrc: '../assets/lineup/band1.png',
+    imgSrc: './assets/lineup/band1.png',
     bandName: 'UDG',
     bandType: 'CZ POP/ROCK',
     spotify: '',
@@ -17,7 +17,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
   }
 
   const vojtano = {
-    imgSrc: '../assets/lineup/band2.png',
+    imgSrc: './assets/lineup/band2.png',
     bandName: 'VOJTAANO',
     bandType: 'CZ FOLK POP, FOLK RAP',
     spotify: '',
@@ -28,7 +28,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
 
   const bandsFirst = [    
     {
-      imgSrc: '../assets/lineup/band3.png',
+      imgSrc: './assets/lineup/band3.png',
       bandName: 'CIRCUS PROBLEM',
       bandType: 'CZ/EN BALKAN BRASS',
       spotify: '',
@@ -37,7 +37,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
       height: 280
     },
     {
-      imgSrc: '../assets/lineup/band4.png',
+      imgSrc: './assets/lineup/band4.png',
       bandName: 'MANIAK',
       bandType: 'CZ RAP',
       spotify: '',
@@ -50,7 +50,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
   const bandsSecond = [
     
     {
-      imgSrc: '../assets/lineup/band5.png',
+      imgSrc: './assets/lineup/band5.png',
       bandName: 'JAKUB DĚKAN',
       subName: '& BAND',
       bandType: 'CZ ACOUSTIC POP',
@@ -60,7 +60,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
       height: 420
     },
     {
-      imgSrc: '../assets/lineup/band7.png',
+      imgSrc: './assets/lineup/band7.png',
       bandName: 'TROCHA KLIDU',
       bandType: 'CZ POP/ROCK',
       spotify: '',
@@ -71,7 +71,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
   ]
   </script>
   
-  <div id="band-list" class="py-20 w-11/12 mx-auto overflow-hidden">
+  <div id="band-list" class="py-20 w-4/5 mx-auto overflow-hidden">
     <div class="band-list-first flex flex-wrap">
       <div class="lg:grid w-full lg:w-8/12 grid-cols-2 lg:grid-rows-2 lg:gap-2 lg:px-2">
         <LineupBand class="w-full col-span-2 mb-4 lg:mb-0" band={udg}>

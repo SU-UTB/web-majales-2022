@@ -13,8 +13,8 @@
       <LandingHeading landingHeadingText="S kým to na vás hrajeme?" class="text-white mb-4" />
       <div class="about-lineup flex items-center flex-wrap">
         <div class="about-txt md:w-full 2xl:w-4/5">
-          <p class="text-white txt-bold mb-2">Staňte se partnerem a nechte si zahrát, po čem vaše srdce touží.</p>
-          <p class="text-white">Koncept a formu spolupráce můžeme upravit podle vašich požadavků do podoby individuální nabídky.
+          <p class="text-white txt-bold mb-2">Staňte se partnerem a&nbsp;nechte si zahrát, po čem vaše srdce touží.</p>
+          <p class="text-white">Koncept a&nbsp;formu spolupráce můžeme upravit podle vašich požadavků do podoby individuální nabídky.
             Pojďte do toho s námi, ať je letošní ročník nebesky skvělý! <span class="txt-bold"> Ozvěte se nám na skojec@sutb.cz.</span></p>
         </div>
       </div>

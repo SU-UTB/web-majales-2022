@@ -14,7 +14,7 @@
       <span class="txt-bold">
         Pošli do 31. 3. svou registraci
       </span>
-      a ukaž, co v tobě je!
+      a&nbsp;ukaž, co v tobě je!
     </p>
     <NavToPageBluButton linkText="více informací" linkTo="./bandContest.html" />
   </div>

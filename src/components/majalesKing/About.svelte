@@ -8,7 +8,7 @@
         <p class="mb-2"><span class="txt-bold">Soutěž probíhá ve smíšených párech,</span> muž i žena musí být ze stejné fakulty. Pokud nemáš parťáka, tak nezoufej — nějakého ti dohodíme.</p>
         <p class="mb-2">Registrovat se můžeš prostřednictvím online dotazníku v rozmezí <br /><span class="txt-bold">od 18. 4. do 1. 5. do 23:59.</span></p>
         <p>
-        <p class="mb-2">Na základě vyřazovacích kol a urozených disciplín přímo na akci <span class="txt-bold">6. 5.</span>zjistíme, kdo je hoden nosit po další rok korunu a usednout na trůn.<br /><span class="txt-bold">Budeš to právě ty?</span></p>
+        <p class="mb-2">Na základě vyřazovacích kol a&nbsp;urozených disciplín přímo na akci <span class="txt-bold">6. 5. </span>zjistíme, kdo je hoden nosit po další rok korunu a&nbsp;usednout na trůn.<br /><span class="txt-bold">Budeš to právě ty?</span></p>
         <p class="mb-2"></p>
         <p></p>
       </div>
