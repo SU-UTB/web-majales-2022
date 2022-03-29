@@ -11,9 +11,9 @@ import BandList from "./BandList.svelte";
   <VerticalSocials class="lg:top-72 lg:left-10" />
   <div class="flex justify-around py-32">
     <img src="" alt="">
-    <div class="about-lineup md:w-2/5 px-8 md:px-4 my-8 md:my-0">
+    <div class="about-lineup md:1/2 lg:w-2/5 px-8 md:px-4 my-8 md:my-0">
       <LandingHeading landingHeadingText="Koho si můžete letos poslechnout?" class="text-white mb-4" />
-      <p class="text-white">Od 14:30 se park před Baťovou vilou rozezní melodiemi interpretů ze Zlína i&nbsp;zbytku republiky! </p>
+      <p class="text-white w-11/12 sm:w-8/12  lg:w-9/12 xl:w-7/12">Od 14:30 se park před Baťovou vilou rozezní melodiemi interpretů ze Zlína i&nbsp;zbytku republiky! </p>
       <NavToPageWhiteBtn class="mt-12" linkText="nalaď majálesový playlist" linkTo="./" />
     </div>
   </div>

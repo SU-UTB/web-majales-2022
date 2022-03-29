@@ -76,7 +76,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
       <div class="lg:grid w-full lg:w-8/12 grid-cols-2 lg:grid-rows-2 lg:gap-2 lg:px-2">
         <LineupBand class="w-full col-span-2 mb-4 lg:mb-0" band={udg}>
           <div class="absolute bottom-10 left-8" slot="band-desc">
-            <h3 class="text-white text-4xl txt-bold">{udg.bandName}</h3>
+            <h3 class="text-white text-4xl txt-extrabold">{udg.bandName}</h3>
             <p class="text-white text-lg">{udg.bandType}</p>
           </div>
           <VerticalBandSoc class="top-16 left-8" slot="band-socials" />
@@ -84,7 +84,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
         {#each bandsFirst as band}
           <LineupBand class="w-full mb-4 lg:mb-0" band={band}>
             <div class="absolute bottom-10 left-8" slot="band-desc">
-              <h3 class="text-white text-4xl txt-bold">{band.bandName}</h3>
+              <h3 class="text-white text-4xl txt-extrabold">{band.bandName}</h3>
               <p class="text-white text-lg">{band.bandType}</p>
             </div>
             <VerticalBandSoc class="top-16 left-8" slot="band-socials" />
@@ -93,7 +93,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
       </div>
       <LineupBand class="w-full lg:w-4/12 mb-4 lg:mb-0" band={vojtano}>
         <div class="absolute bottom-10 right-8" slot="band-desc">
-          <h3 class="text-white text-4xl txt-bold">{vojtano.bandName}</h3>
+          <h3 class="text-white text-4xl txt-extrabold">{vojtano.bandName}</h3>
           <p class="text-white text-lg">{vojtano.bandType}</p>
         </div>
         <VerticalBandSoc class="bottom-48 right-8" slot="band-socials" />
@@ -104,7 +104,7 @@ import LineupBand from "../../molecules/LineupBand.svelte";
         {#each bandsSecond as band}
           <LineupBand class="w-full mb-4 lg:mb-0" band={band}>
             <div class="absolute bottom-10 left-8" slot="band-desc">
-              <h3 class="text-white text-4xl txt-bold">{band.bandName}
+              <h3 class="text-white text-4xl txt-extrabold">{band.bandName}
                 {#if band.subName}
                   <sup class="text-white text-lg">{band.subName}</sup>
                 {/if}
