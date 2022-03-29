@@ -4,20 +4,28 @@
   import VerticalSocials from "../shared/VerticalSocials.svelte"
 </script>
 
-<section id="landing-news" class="relative">
+<section id="landing-news" class="relative flex items-center">
   <VerticalSocials class="lg:top-72 lg:left-10" />
-  <SectionWrapper class="py-40">
-    <LandingHeading landingHeadingText="Co se u nás právě děje?" class="text-white pt-6 mb-4" />
-    <div class="about-news md:w-3/5">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant</p>
-    </div>
+  <SectionWrapper>
+    <LandingHeading landingHeadingText="Co se u nás právě děje?" class="text-white md:pt-40 xl:pt-48 md:pb-64" />
   </SectionWrapper>
 </section>
 
 <style>
+  
+
   #landing-news {
-    background: url('../assets/news/news_landing.png') no-repeat;
+    background: url('../assets/news/m_news_landing.png') no-repeat;
     background-position-y: 10%;
-    background-size: auto;
+    background-size: 100% 100%;
+    min-height: 80vh;
   }
+  @media screen and (min-width: 768px) {
+    #landing-news {
+      background: url('../assets/news/news_landing.png') no-repeat;
+      background-position-y: 10%;
+      background-size: cover;
+      min-height: 0;
+    }
+  }  
 </style>

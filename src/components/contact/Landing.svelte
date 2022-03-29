@@ -15,15 +15,18 @@
 
 <style>
   #landing-contact {
-    background: url('../assets/contact/contact_landing.png') no-repeat center;
-    background-size: 100% 100%;
+    background: url('../assets/contact/m_contact_landing.png') no-repeat top;
+    background-size: cover;
   }
-
   .main-info {
     min-height: 50vh;
   }
 
   @media screen and (min-width: 768px) {
+    #landing-contact {
+      background: url('../assets/contact/contact_landing.png') no-repeat top;
+      background-size: cover;
+    }
     .main-info {
       min-height: 36vh;
     }

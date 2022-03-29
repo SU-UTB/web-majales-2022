@@ -22,9 +22,16 @@ import BandList from "./BandList.svelte";
 
 <style>
   #landing-lineup {
-    background: url('../assets/lineup/lineup_landing.png') no-repeat;
+    background: url('../assets/lineup/m_lineup_landing.png') no-repeat top;
+    background-size: cover;
     background-position-y: -10vh;
     background-position-x: center;
-    background-size: cover;
+  }
+
+  @media screen and (min-width: 768px) {
+    #landing-lineup {
+      background: url('../assets/lineup/lineup_landing.png') no-repeat top;
+      background-size: cover;
+    }
   }
 </style>

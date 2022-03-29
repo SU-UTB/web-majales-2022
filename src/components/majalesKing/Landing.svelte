@@ -23,7 +23,14 @@
 
 <style>
   #landing-king {
-    background: url('../assets/king/king_landing.png') no-repeat top;
+    background: url('../assets/king/m_king_landing.png') no-repeat top;
     background-size: cover;
+  }
+
+  @media screen and (min-width: 768px) {
+    #landing-king {
+      background: url('../assets/king/king_landing.png') no-repeat top;
+      background-size: cover;
+    }
   }
 </style>

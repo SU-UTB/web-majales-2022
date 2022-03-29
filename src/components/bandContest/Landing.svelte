@@ -21,6 +21,14 @@
   
 <style>
   #landing-band-contest {
-    background: url('../assets/band_contest/band_contest_landing.png') no-repeat top;
+    background: url('../assets/band_contest/m_band_contest_landing.png') no-repeat top;
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 768px) {
+    #landing-band-contest {
+      background: url('../assets/band_contest/band_contest_landing.png') no-repeat top;
+      background-size: cover;
+    }
   }
 </style>
