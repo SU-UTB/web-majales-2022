@@ -2,8 +2,8 @@
   export let srcDesktop, srcMobile, imgAlt
 </script>
 
-<picture class="{$$props.class}">
+<picture>
   <source media="(max-width: 768px)" srcset={srcMobile}>
   <source media="(min-width: 768px)" srcset={srcDesktop}>
-    <img src="" alt={imgAlt}>
+  <img class="block object-cover object-center w-full h-full" src={srcMobile} alt={imgAlt}>
 </picture>
