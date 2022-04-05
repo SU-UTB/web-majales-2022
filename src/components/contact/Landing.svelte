@@ -22,7 +22,7 @@
     min-height: 50vh;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 640px) {
     #landing-contact {
       background: url('../assets/contact/contact_landing.png') no-repeat top;
       background-size: cover;

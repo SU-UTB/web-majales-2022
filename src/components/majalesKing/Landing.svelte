@@ -27,7 +27,7 @@
     background-size: cover;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 640px) {
     #landing-king {
       background: url('../assets/king/king_landing.png') no-repeat top;
       background-size: cover;

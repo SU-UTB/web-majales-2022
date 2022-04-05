@@ -24,7 +24,14 @@
 
 <style>
   #landing-partners {
-    background: url('../assets/partners/partners_landing.png') no-repeat top;
+    background: url('../assets/partners/m_partners_landing.png') no-repeat top;
     background-size: cover;
+  }
+
+  @media screen and (min-width: 640px) {
+    #landing-partners {
+      background: url('../assets/partners/partners_landing.png') no-repeat top;
+      background-size: cover;
+    }
   }
 </style>

@@ -23,7 +23,7 @@ import NewsItemLink from "../../atoms/NewsItemLink.svelte";
   ]
 </script>
 
-<section id="news-list" class="py-6">
+<section id="news-list" class="relative -top-64 sm:-top-36 py-6">
   <div class="news-wrapper px-4 md:w-4/5 mx-auto">
     {#each newsList as newsItem}
       <div class="flex mb-12 lg:justify-between flex-wrap">

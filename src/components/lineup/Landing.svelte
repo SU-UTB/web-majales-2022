@@ -29,7 +29,7 @@ import BandList from "./BandList.svelte";
     background-position-x: center;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 640px) {
     #landing-lineup {
       background: url('../assets/lineup/lineup_landing.png') no-repeat top;
       background-size: cover;
