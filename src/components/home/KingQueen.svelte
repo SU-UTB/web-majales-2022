@@ -5,7 +5,7 @@
 <section id="king-queen" class="py-8">
   <div class="md:w-4/5 mx-auto py-8 md:py-16 flex flex-col lg:flex-row items-center">
     <div class="king-queen-img md:w-3/4 lg:w-1/2 px-8 md:px-2">
-      <img src="./assets/home/king_queen.png" alt="král a královna Majálesu">
+      <img src="./assets/home/king_queen.jpg" alt="král a královna Majálesu">
     </div>
     <div class="king-queen-desc lg:w-1/2 px-12 md:px-4">
       <h5 class="section-heading text-left text-light_blu md:w-4/5 2xl:w-3/5 mb-8">Král a&nbsp;královna <br />Majálesu</h5>

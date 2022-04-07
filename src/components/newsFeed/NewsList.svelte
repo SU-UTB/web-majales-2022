@@ -9,17 +9,17 @@ import NewsItemLink from "../../atoms/NewsItemLink.svelte";
       category: 'doprovodný program',
       headlineTxt: 'silent disco kdesi kdesi',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. ',
-      linkTo: './',
-      linkTxt: 'událost na Facebooku'
+      linkTo: 'https://open.spotify.com/playlist/6QaUdPiQBjDGGgjr8Gubwm?si=01dc16744e384d06',
+      linkTxt: 'spotify playlist'
     },
-    {
-      imgSrc: './assets/news/news_1.png',
-      category: 'Král a královna Majálesu',
-      headlineTxt: 'registrace na krále a královnu spuštěny!',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. ',
-      linkTo: './',
-      linkTxt: 'registruj se!'
-    },
+    // {
+    //   imgSrc: './assets/news/news_1.png',
+    //   category: 'Král a královna Majálesu',
+    //   headlineTxt: 'registrace na krále a královnu spuštěny!',
+    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. ',
+    //   linkTo: './',
+    //   linkTxt: 'registruj se!'
+    // },
   ]
 </script>
 
@@ -28,7 +28,9 @@ import NewsItemLink from "../../atoms/NewsItemLink.svelte";
     {#each newsList as newsItem}
       <div class="flex mb-12 lg:justify-between flex-wrap">
         <div class="news-item-img lg:w-4/12">
-          <img class="block object-cover object-center w-full h-full" src={newsItem.imgSrc} alt={newsItem.headlineTxt}>
+          <a href={newsItem.linkTo} target="_blank" rel="noopener noreferrer">
+            <img class="block object-cover object-center w-full h-full" src={newsItem.imgSrc} alt={newsItem.headlineTxt}>
+          </a>
         </div>
         <div class="news-item-txt py-4 px-2 lg:px-4 lg:w-8/12">
           <div class="news-item-category px-4 py-2 bg-dark_blu text-white mb-4 max-w-max">

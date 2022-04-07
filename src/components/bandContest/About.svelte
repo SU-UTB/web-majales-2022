@@ -2,7 +2,7 @@
   <div class="mt-24">
     <div class="w-full md:w-4/5 mx-auto px-8 md:px-4 flex items-center justify-center lg:justify-between flex-wrap">
       <div class="img-wrapper lg:w-3/5 2xl:w-2/5 max-w-lg md:max-w-none mb-8 lg:mb-0">
-        <img src="./assets/home/king_queen.png" alt="">
+        <img src="./assets/home/king_queen.jpg" alt="Král a Královná Majálesu">
       </div>
       <div class="about-desc w-full lg:w-2/3 2xl:w-1/2 lg:mt-4">
         <p class="txt-bold">Tři interpreti získají prostor na hvězdné show Majálesu UTB Zlín.</p>
