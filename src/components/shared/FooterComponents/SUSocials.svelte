@@ -4,12 +4,12 @@
 
   const socItems = [
     {
-      linkTo: './',
+      linkTo: 'https://www.instagram.com/studentskaunieutb/',
       imgSrc: './assets/socials/su_social.svg',
       imgAlt: 'su',
     },
     {
-      linkTo: 'https://www.facebook.com/studentskaunieutb',
+      linkTo: 'https://www.facebook.com/studentskaunieutb/',
       imgSrc: './assets/socials/fb_social.svg',
       imgAlt: 'fb',
     },
@@ -17,7 +17,7 @@
       linkTo: 'https://www.instagram.com/majalesutb/',
       imgSrc: './assets/socials/ig_social.svg',
       imgAlt: 'ig',
-    },    
+    },
   ]
 
 </script>

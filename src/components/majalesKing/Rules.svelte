@@ -19,7 +19,7 @@
           <li>Čas a&nbsp;místo srazu v den soutěže bude upřesněn skrze e-maily účastníků.</li>
         </ol>
         <div class="mt-12 md:mt-20">
-          <NavToPageBluBtn linkText="registruj se!" linkTo="" />
+          <NavToPageBluBtn blank=true linkText="registruj se!" linkTo="https://docs.google.com/forms/d/1OdwDsAbSIjbJw9RzmeTneiEAmWY37mked_KPqKg-RIU/" />
         </div>
       </div>
     </div>

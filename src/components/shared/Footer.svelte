@@ -13,7 +13,7 @@
       mail: 'vyhnalkova@sutb.cz'
     },
     {
-      name: 'rastislav škojec',
+      name: 'Rastík škojec',
       pos: 'koordinátor spolupráce',
       mail: 'skojec@sutb.cz'
     },
@@ -31,7 +31,7 @@
       mail: 'utikal@sutb.cz'    
     },
     {
-      name: 'Filip Tomeš',
+      name: 'Fifko Tomeš',
       pos: 'správa webu a IT',
       mail: ''    
     },
@@ -62,11 +62,7 @@
     {
       linkTo: '/contact.html',
       linkText: 'kontakt'
-    },
-    {
-      linkTo: '/media.html',
-      linkText: 'pro média'
-    },
+    }
   ]
 
   const footerLinks = [
@@ -88,7 +84,7 @@
     <div class="footer-nav-links mb-4 md:mb-0">
       <FooterItemHeadline headlineText="majáles" class="mb-4 md:mb-6" />
       {#each navLinks as navLink}
-        <div class="footer-nav-link {navLink.linkTo === "/contact.html" ? "mb-6" : "mb-2"}">
+        <div class="footer-nav-link mb-2">
           <FooterNavLink linkTo={navLink.linkTo} linkText={navLink.linkText} />
         </div>
       {/each}

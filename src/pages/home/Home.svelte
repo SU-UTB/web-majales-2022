@@ -16,10 +16,10 @@
   <Landing />
   <Aftermovie />
   <About />
-  <Lineup />
+  <!-- <Lineup /> -->
   <BandContest />
   <KingQueen />
-  <Partners />
+  <!-- <Partners /> -->
 </main>
 <Footer />
 

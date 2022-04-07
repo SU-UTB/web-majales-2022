@@ -15,7 +15,7 @@
         <p class="text-white">Utkej se v Majálesovém turnaji a&nbsp;vybojuj titul krále nebo královny univerzity! Přihlaš sebe nebo vaše duo do <span class="txt-bold">1. 5.</span> a&nbsp;ukaž, kdo vládne na UTB!</p>
       </div>
       <div class="register-btn mt-12 md:mt-0 md:ml-8 lg:ml-10 xl:ml-12">
-        <NavToPageWhiteBtn linkTo="" linkText="registruj se!" />
+        <NavToPageWhiteBtn blank=true linkTo="https://docs.google.com/forms/d/1OdwDsAbSIjbJw9RzmeTneiEAmWY37mked_KPqKg-RIU/" linkText="registruj se!" />
       </div>
     </div>
   </SectionWrapper>

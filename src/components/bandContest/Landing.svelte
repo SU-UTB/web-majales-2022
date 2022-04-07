@@ -13,7 +13,7 @@
         <p class="text-white">Máš kapelu nebo po večerech produkuješ vlastní hudbu a&nbsp;hledáš příležitost, jak zahrát před pořádným publikem? Tady jednu máš! <br />Přihlas sebe nebo svou partu do soutěže kapel, deadline je <span class="txt-bold">31. 3.</span></p>
       </div>
       <div class="register-btn mt-12 md:mt-0 md:ml-8 lg:ml-10 xl:ml-12">
-        <NavToPageWhiteBtn linkTo="" linkText="registruj se!" />
+        <NavToPageWhiteBtn blank=true linkText="hlasuj!" linkTo="https://docs.google.com/forms/d/17IudnbZ7zvYDyLwqZ-tvyY214hpQp2ZLyT9RzQATTI0/" />
       </div>
     </div>
   </SectionWrapper>

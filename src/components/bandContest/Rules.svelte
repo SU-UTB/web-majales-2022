@@ -17,7 +17,7 @@ import SectionHeading from "../../atoms/SectionHeading.svelte"
         <li>Vítěz bude <span class="txt-bold">zvolen publikem,</span> hlavní cenou je roční zásoba piva.</li>
       </ol>
       <div class="mt-12 md:mt-20">
-        <NavToPageBluBtn linkText="registruj se!" linkTo="" />
+        <NavToPageBluBtn blank=true linkText="hlasuj!" linkTo="https://docs.google.com/forms/d/17IudnbZ7zvYDyLwqZ-tvyY214hpQp2ZLyT9RzQATTI0/" />
       </div>
     </div>
   </div>
