@@ -5,13 +5,21 @@ import NewsItemLink from "../../atoms/NewsItemLink.svelte";
 
   const newsList = [
     {
-      imgSrc: './assets/news/news_1.png',
+      imgSrc: './assets/news/news_1.jpg',
       category: 'doprovodný program',
-      headlineTxt: 'silent disco kdesi kdesi',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. ',
-      linkTo: 'https://open.spotify.com/playlist/6QaUdPiQBjDGGgjr8Gubwm?si=01dc16744e384d06',
-      linkTxt: 'spotify playlist'
+      headlineTxt: 'MAJÁLESOVÁ STEZKA ZLÍNEM',
+      description: 'Přeješ si poznat všechna zákoutí města Zlína? Chceš získat roční předplatné na sdílená kola Nextbike? Projdi naší poznávací stezkou, posbírej jedenáct písmen, slož z nich dvě slova a výslednou tajenku vlož do našeho soutěžního formuláře. Lovu zdar!',
+      linkTo: 'https://forms.gle/9xTH6LPR2Zn9iZ9c6',
+      linkTxt: 'odkaz na formulář'
     },
+    // {
+    //   imgSrc: './assets/news/news_1.png',
+    //   category: 'doprovodný program',
+    //   headlineTxt: 'silent disco',
+    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo eu lorem risus commodo a eu. Eros sollicitudin bibendum enim mauris, montes, consequat morbi. Faucibus a in ac ultricies senectus eget pretium, et sed. Maecenas eu volutpat morbi habitant. ',
+    //   linkTo: 'https://open.spotify.com/playlist/6QaUdPiQBjDGGgjr8Gubwm?si=01dc16744e384d06',
+    //   linkTxt: 'spotify playlist'
+    // },
     // {
     //   imgSrc: './assets/news/news_1.png',
     //   category: 'Král a královna Majálesu',
@@ -23,7 +31,7 @@ import NewsItemLink from "../../atoms/NewsItemLink.svelte";
   ]
 </script>
 
-<section id="news-list" class="relative -top-64 sm:-top-36 py-6">
+<section id="news-list" class="relative -top-36 py-6">
   <div class="news-wrapper px-4 md:w-4/5 mx-auto">
     {#each newsList as newsItem}
       <div class="flex mb-12 lg:justify-between flex-wrap">
