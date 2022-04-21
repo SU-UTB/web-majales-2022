@@ -67,7 +67,7 @@
 
   const footerLinks = [
     {
-      linkTo: 'su.utb.cz',
+      linkTo: 'sunovy.utb.cz',
     },
     {
       linkTo: 'utb.cz',
