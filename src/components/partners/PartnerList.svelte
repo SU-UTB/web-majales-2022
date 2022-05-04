@@ -19,16 +19,16 @@ import PartnerSection from "../../atoms/PartnerSection.svelte";
   }
 
   const bandContestPartner = {
-    partnerImg: './assets/partners/logos/zubr',
-    partnerImgAlt: 'Zubr',
-    partnerLink: 'https://www.zubr.cz/'
+    partnerImg: './assets/partners/logos/radegast',
+    partnerImgAlt: 'Radegast',
+    partnerLink: 'https://www.radegast.cz/'
   }
   
   const mainPartners = [
     {
       partnerImg: './assets/partners/logos/svoboda_brezik',
       partnerImgAlt: 'svoboda brezik',
-      partnerLink: 'https://www.zubr.cz/'
+      partnerLink: 'http://www.svobodabrezik.cz/'
     },
     {
       partnerImg: './assets/partners/logos/is_produkce',
@@ -75,6 +75,11 @@ import PartnerSection from "../../atoms/PartnerSection.svelte";
       partnerImgAlt: 'cisty festival ekokom',
       partnerLink: 'https://www.cistyfestival.cz/'
     },
+    {
+      partnerImg: './assets/partners/logos/gnotes',
+      partnerImgAlt: 'G Notes',
+      partnerLink: 'https://www.gnotes.cz/'
+    },
   ]
   
   const partners = [
@@ -91,7 +96,7 @@ import PartnerSection from "../../atoms/PartnerSection.svelte";
     {
       partnerImg: './assets/partners/logos/nadace_tomase_bati',
       partnerImgAlt: 'nadace tomase bati',
-      partnerLink: 'https://awl.nl/cs/'
+      partnerLink: 'https://www.nadacetomasebati.cz/'
     },
     {
       partnerImg: './assets/partners/logos/awl',
